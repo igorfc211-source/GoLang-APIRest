@@ -1,11 +1,11 @@
 package db
 
-import "fmt"
-import "database/sql"
-
-
+import ("fmt"
+ "database/sql"
+	_"github.com/lib/pq"
+)
 const (
-	host     = "localhost"
+	host     = "go_db"
 	port     = 5432
 	user     = "postgres"
 	password = "1234"
